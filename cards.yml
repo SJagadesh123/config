@@ -1,0 +1,13 @@
+
+build:
+  version: "11.1" 
+  
+accounts:
+  message: "Welcome to ZettaBank cards related APIs"
+  contactDetails:
+    name: "Jagadesh - Developer"
+    email: "jagadesh@zettabank.com"
+  onCallSupport:
+    - (40) 123-45678
+    - (40) 456-13459
+     
