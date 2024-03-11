@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: "qa"
+    active: "prod"
     
 build:
   version: "1.0" 
