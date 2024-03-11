@@ -1,6 +1,6 @@
 
 build:
-  version: "9.10"
+  version: "9.123"
 
 accounts:
   message: "Welcome to ZettaBank accounts related prod APIs "
