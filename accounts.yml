@@ -10,4 +10,7 @@ accounts:
   onCallSupport:
     - (40) 123-45678
     - (40) 456-13459
+spring:
+  profiles:
+    active: "qa"
      
