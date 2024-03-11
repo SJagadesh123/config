@@ -1,7 +1,4 @@
-spring:
-  profiles:
-    active: "prod"
-    
+
 build:
   version: "1.0" 
   
