@@ -1,13 +1,15 @@
 
 
-build:
-  version: "11.3"
+server:
+  port: 8070
 
-eurekaserver:
-  message: "Welcome to ZettaBank accounts related QA APIs "
-  contactDetails:
-    name: "Sanjay - QA Lead"
-    email: "sanjay@zettabank.com"
-  onCallSupport:
-    - (040) 265-3765
-    - (040) 734-8371
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    fetchregistry: false
+    registrywithEureka: false
+
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  
